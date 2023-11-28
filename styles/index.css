@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'VT';
+    src: url(/fonts/VT323-Regular.ttf) format(truetype);
+}
+
 body {
     background-image: url(../assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.title {
+    font-family: 'VT';
+    color: yellow;
+    text-align: center;
 }
