@@ -11,6 +11,7 @@ body {
 }
 
 /*design do menu*/
+
 .title {
     font-family: 'VT';
     font-size: xx-large;
@@ -21,7 +22,26 @@ body {
 }
 
 .button {
-    text-align: center;
+
+    /*configurações básicas*/
+    font-family: 'VT';
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    background-color: #fff1;
+
+
+    /*configurações da borda*/
+    border: 2px solid #fff6;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+
+    /*configurações de alinhamento*/
+    align-items: center;
+    justify-content: center;
+    margin: 44%;
+
 }
 
 .footer{
