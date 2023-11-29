@@ -8,6 +8,8 @@ body {
     background-image: url(../assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*design do menu*/
@@ -52,7 +54,7 @@ body {
 
 .rules {
     font-family: 'VT';
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
