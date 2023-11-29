@@ -13,11 +13,21 @@ body {
 /*design do menu*/
 .title {
     font-family: 'VT';
+    font-size: xx-large;
     color: white;
     text-align: center;
-    text-shadow: 3px 3px 0 #000;    
+    text-shadow: 3px 3px 0 #000;   
+    margin: 10%; 
 }
 
 .button {
     text-align: center;
+}
+
+.footer{
+    font-family: 'VT';
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    margin: 10%;
 }
