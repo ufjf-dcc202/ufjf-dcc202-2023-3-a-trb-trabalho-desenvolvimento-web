@@ -1,0 +1,14 @@
+/*implementação da fonte no arquivo css*/
+@font-face {
+    font-family: 'VT';
+    src: url(/fonts/VT323-Regular.ttf) format(truetype);
+}
+
+/*configurações básicas do body*/
+body {
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
