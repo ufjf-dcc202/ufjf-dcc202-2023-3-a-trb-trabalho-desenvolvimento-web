@@ -9,6 +9,54 @@ body {
     background-image: url(/assets/background-new.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*design da página rules*/
+
+.title {
+    font-family: 'VT';
+    font-size:35px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000;
+    text-shadow: 0px 0px 20px #ffffff8c;
+    margin: 1%;
+}
+
+.lore {
+    font-family: 'VT';
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    line-height: 1.6;
+}
+
+.regras {
+    font-family: 'VT';
+    font-size:32px;
+    color: white;
+    text-shadow: 1px 1px 0 #000;
+    line-height: 1.8;
+}
+
+.button {
+    font-family: 'VT';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    background-color: #fff1;
+    border: 2px solid #fff6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    bottom:10px;
+    left:0px;
 }
