@@ -11,14 +11,29 @@ body {
     background-size: cover;
     overflow-y: scroll;
     overflow-x: hidden;
+    scrollbar-width: thin; /*configurações da barra de rolagem Gecko (motor de renderização do Firefox e derivados, W3C)*/
+    scrollbar-color: black transparent;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-/*design da página rules*/
+/*configurações da barra de rolagem Webkit e Blink (motor de renderização do Google e derivados, pseudo-elementos do CSS*/
+body::-webkit-scrollbar{
+    width: 3px;
+}
 
+body::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-track{
+    background: black;
+    padding: 2px;
+}
+
+/*design da página rules*/
 .title {
     font-family: 'VT';
     font-size:35px;
