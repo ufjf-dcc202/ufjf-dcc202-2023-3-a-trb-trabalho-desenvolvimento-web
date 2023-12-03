@@ -8,7 +8,7 @@
 body {
     background-image: url(../assets/background-new.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ body {
     grid-template-rows: 55px 55px 55px 20px;
     justify-content: center;
     position: relative;
-    top: 30px;
+    top: 45px;
 }
 
 .game-board2 {
@@ -29,7 +29,7 @@ body {
     grid-template-rows: 55px 55px 55px 20px;
     justify-content: center;
     position: relative;
-    top: 210px;
+    top: 240px;
 }
 
 .box {
@@ -40,13 +40,43 @@ body {
 /*interface*/
 .button {
     font-family: 'VT';
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
     background-color: #fff1;
-    border-radius: 45px;
-    padding: 8px 25px;
+    border-radius: 50px;
+    padding: 9px 19px;
     position: relative;
-    top: 260px;
+    top: 275px;
+}
+
+.texto1 {
+    font-family: 'VT';
+    font-size: 30px;
+    position: relative;
+    bottom: 500px;
+    color: white;
+}
+
+.texto2 {
+    font-family: 'VT';
+    font-size: 30px;
+    position: relative;
+    bottom: 500px;
+    color: white;
+}
+
+/*personagens*/
+
+.imagem1 {
+    position: relative;
+    bottom: 150px;
+    left: 270px;
+}
+
+.imagem2 {
+    position: relative;
+    bottom: 355px;
+    left: 850px;
 }
