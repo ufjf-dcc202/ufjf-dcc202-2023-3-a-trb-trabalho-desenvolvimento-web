@@ -14,12 +14,12 @@ body {
 }
 
 /*tabuleiro*/
-.game-board {
+.jogador {
     position: relative;
-    left: 660px;
+    left: 575px;
     top: 70px;
-    height: 250px;
-    width: 250px; 
+    height: 200px;
+    width: 200px; 
     text-align: center;
     font-family: 'VT';
     font-size: 50px;
@@ -27,12 +27,12 @@ body {
 
 }
 
-.game-board2 {
+.oponente {
     position: relative;
-    left: 660px;
+    left: 575px;
     top: 200px;
-    height: 250px;
-    width: 250px; 
+    height: 200px;
+    width: 200px; 
     text-align: center;
     font-family: 'VT';
     font-size: 50px;
@@ -55,28 +55,28 @@ body {
     border-radius: 50px;
     padding: 9px 19px;
     position: relative;
-    bottom: 950px;
+    bottom: 670px;
 }
 
 .texto1 {
     font-family: 'VT';
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
     position: relative;
-    bottom: 600px;
-    left: 350px;
+    bottom: 430px;
+    left: 348px;
     color: white;
 }
 
 .texto2 {
     font-family: 'VT';
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
     position: relative;
-    bottom: 675px;
-    left: 1155px;
+    bottom: 490px;
+    left: 873px;
     color: white;
 }
 
@@ -87,21 +87,21 @@ body {
     text-shadow: 2px 2px 0 black;
     position: relative;
     text-align: center;
-    bottom: 1080px;
+    bottom: 790px;
     color: white;
 }
 
 /*personagens*/
 .imagem1 {
     position: relative;
-    bottom: 300px;
-    left: 310px;
+    bottom: 190px;
+    left: 332px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
 }
 
 .imagem2 {
     position: relative;
-    bottom: 600px;
-    left: 1050px;
+    bottom: 395px;
+    left: 800px;
 }
