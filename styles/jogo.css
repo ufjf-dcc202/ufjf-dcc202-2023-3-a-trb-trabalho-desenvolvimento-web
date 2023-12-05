@@ -15,21 +15,28 @@ body {
 
 /*tabuleiro*/
 .game-board {
-    display: grid;
-    grid-template-columns: 55px 55px 55px;
-    grid-template-rows: 55px 55px 55px 20px;
-    justify-content: center;
     position: relative;
+    left: 660px;
     top: 70px;
+    height: 250px;
+    width: 250px; 
+    text-align: center;
+    font-family: 'VT';
+    font-size: 50px;
+    color: white;
+
 }
 
 .game-board2 {
-    display: grid;
-    grid-template-columns: 55px 55px 55px;
-    grid-template-rows: 55px 55px 55px 20px;
-    justify-content: center;
     position: relative;
-    top: 240px;
+    left: 660px;
+    top: 200px;
+    height: 250px;
+    width: 250px; 
+    text-align: center;
+    font-family: 'VT';
+    font-size: 50px;
+    color: white;
 }
 
 .box {
@@ -48,28 +55,28 @@ body {
     border-radius: 50px;
     padding: 9px 19px;
     position: relative;
-    bottom: 640px;
+    bottom: 950px;
 }
 
 .texto1 {
     font-family: 'VT';
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
     position: relative;
-    bottom: 390px;
-    left: 326px;
+    bottom: 600px;
+    left: 350px;
     color: white;
 }
 
 .texto2 {
     font-family: 'VT';
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
     position: relative;
-    bottom: 452px;
-    left: 925px;
+    bottom: 675px;
+    left: 1155px;
     color: white;
 }
 
@@ -80,14 +87,14 @@ body {
     text-shadow: 2px 2px 0 black;
     position: relative;
     text-align: center;
-    bottom: 760px;
+    bottom: 1080px;
     color: white;
 }
 
 /*personagens*/
 .imagem1 {
     position: relative;
-    bottom: 150px;
+    bottom: 300px;
     left: 310px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
@@ -95,6 +102,6 @@ body {
 
 .imagem2 {
     position: relative;
-    bottom: 355px;
-    left: 850px;
+    bottom: 600px;
+    left: 1050px;
 }
