@@ -6,12 +6,95 @@
 
 /*configurações básicas do body*/
 body {
-    background-image: url(/assets/background-new.gif);
+    background-image: url(../assets/background-new.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
+/*tabuleiro*/
+.game-board {
+    display: grid;
+    grid-template-columns: 55px 55px 55px;
+    grid-template-rows: 55px 55px 55px 20px;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
 
+.game-board2 {
+    display: grid;
+    grid-template-columns: 55px 55px 55px;
+    grid-template-rows: 55px 55px 55px 20px;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+}
 
+.box {
+    background-color: #fff1;
+    border: 2px solid whitesmoke;
+}
+
+/*interface*/
+.button {
+    font-family: 'VT';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    background-color: #fff1;
+    border-radius: 50px;
+    padding: 9px 19px;
+    position: relative;
+    bottom: 640px;
+}
+
+.texto1 {
+    font-family: 'VT';
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    position: relative;
+    bottom: 390px;
+    left: 326px;
+    color: white;
+}
+
+.texto2 {
+    font-family: 'VT';
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    position: relative;
+    bottom: 452px;
+    left: 925px;
+    color: white;
+}
+
+.texto3 {
+    font-family: 'VT';
+    font-size: 130px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+    text-align: center;
+    bottom: 760px;
+    color: white;
+}
+
+/*personagens*/
+.imagem1 {
+    position: relative;
+    bottom: 150px;
+    left: 310px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.imagem2 {
+    position: relative;
+    bottom: 355px;
+    left: 850px;
+}
