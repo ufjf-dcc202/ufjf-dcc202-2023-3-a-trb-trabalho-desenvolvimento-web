@@ -15,6 +15,7 @@ body {
 
 /*tabuleiro*/
 .jogador {
+    table-layout: fixed;
     position: absolute;
     left: 42.7%;
     top: 60%;
@@ -27,6 +28,7 @@ body {
 }
 
 .oponente {
+    table-layout: fixed;
     position: absolute;
     left: 42.7%;
     top: 10%;
@@ -39,8 +41,10 @@ body {
 }
 
 .box {
+    height: 70px;
+    width: 70px; 
     background-color: #fff1;
-    border: 2px solid whitesmoke;
+
 }
 
 /*interface*/
