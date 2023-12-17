@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Wizard's Castle</title>
+
+    <link rel="stylesheet" href="styles/jogo.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/lua icone.ico">
+
+</head>
+<body>
+    <h1>The Wizard's Castle</h1>
+
+    <div class="board" id="player1-board"></div>
+
+    <button onclick="rollDice(1)">Player 1 Roll Dice</button>
+
+    <div class="board" id="player2-board"></div>
+
+    <div id="reset-button" onclick="resetGame()">Reset Game</div>
+
+    <script src="src/jogo.js"></script>
+</body>
+</html>
