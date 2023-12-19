@@ -40,3 +40,20 @@ let currentPlayer = 1;
                 }
             }
         }
+
+        // função para atualizar o tabuleiro
+        function updateBoard(player) {
+            const boardElement = document.getElementById(`player${player}-board`);
+            boardElement.innerHTML = '';
+
+            const currentPlayerBoard = player === 1 ? player1Board : player2Board;
+
+            for (let i = 0; i < currentPlayerBoard.length; i++) {
+                const cell = document.createElement('div');
+                cell.className = 'cell';
+                cell.textContent = currentPlayerBoard[i] !== 0 ? currentPlayerBoard[i] : '';
+                boardElement.appendChild(cell);
+            }
+        }
+
+        
