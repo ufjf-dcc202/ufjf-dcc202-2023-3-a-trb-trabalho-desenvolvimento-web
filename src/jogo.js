@@ -56,4 +56,16 @@ let currentPlayer = 1;
             }
         }
 
-        
+        // função para resetar o jogo
+        function resetGame() {
+            currentPlayer = 1;
+            player1Board = Array(9).fill(0);
+            player2Board = Array(9).fill(0);
+            updateBoard(1);
+            updateBoard(2);
+        }
+
+        window.onload = function () {
+            updateBoard(1);
+            updateBoard(2);
+        }
