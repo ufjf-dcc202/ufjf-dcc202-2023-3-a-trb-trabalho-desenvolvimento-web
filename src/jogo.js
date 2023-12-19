@@ -22,3 +22,11 @@ let currentPlayer = 1;
                     }
                 });
             
+                updateBoard(player);
+                updateBoard(3 - player);  // Atualiza o tabuleiro do oponente
+
+                // Checa se o jogo acabou
+                if (currentPlayerBoard.every(value => value !== 0)) {
+                    alert(`Player ${player} wins!`);
+                    resetGame();
+                }
