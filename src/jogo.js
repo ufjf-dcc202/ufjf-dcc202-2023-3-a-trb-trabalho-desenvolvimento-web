@@ -30,3 +30,13 @@ let currentPlayer = 1;
                     alert(`Player ${player} wins!`);
                     resetGame();
                 }
+
+                // Troca players
+                currentPlayer = 3 - player;  // alternar entre jogador 1 e 2
+
+                // Se for a vez do oponente, simula uma jogada
+                if (currentPlayer === 2) {
+                    setTimeout(() => rollDice(2), 1000);
+                }
+            }
+        }
