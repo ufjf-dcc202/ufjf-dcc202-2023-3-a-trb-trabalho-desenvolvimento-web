@@ -56,15 +56,12 @@ body {
 }
 #rolardado{
     font-family: 'VT';
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 0 #000;
-    background-color: rgba(255, 255, 255, 0.055);
-    border-radius: 0px;
-    padding: 5px 10px;
-    position:absolute;
-    bottom: 45%;
-    right: 45%;
-    border: none;
+    background-color: #fff1;
+    border-radius: 100px;
+    margin: 2%;
 }
+    
