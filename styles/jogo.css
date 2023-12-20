@@ -126,6 +126,35 @@ li {
     padding: 5px 15px;
 }
 
+#Reiniciar {
+    font-family: 'VT';
+    font-size: 20px;
+    color: white;
+    background-color: #fff1;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    border: none;
+    border-radius: 50px;
+    padding: 9px 19px;
+    align-items: center;
+    position: absolute;
+    left: 9%;
+    top: 93%;
+}
+
+.Voltar {
+    font-family: 'VT';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    background-color: #fff1;
+    border-radius: 50px;
+    padding: 9px 19px;
+    position: absolute;
+    left: 1%;
+    top: 93%;
+}
 .choose {
     font-family: 'VT';
     font-size: 40px;
@@ -138,18 +167,7 @@ li {
     border:none;
 }
 
-.button {
-    font-family: 'VT';
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #000;
-    background-color: #fff1;
-    border-radius: 50px;
-    padding: 9px 19px;
-    position: absolute;
-    top: 93%;
-}
+
 .texto1 {
     font-family: 'VT';
     font-size: 30px;

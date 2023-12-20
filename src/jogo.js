@@ -70,8 +70,8 @@ btnReinicia.addEventListener('click', reiniciarJogo);
         celula.innerHTML = '&nbsp'; //'&nbsp' é um espaço vazio
 
         for (let i = 1; i <= 9; i++) {
-          let celula = document.getElementById("celula" + i);
-          celula.innerHTML = '&nbsp';
+            let celula = document.getElementById("celula" + i);
+            celula.innerHTML = '&nbsp';
         }
         for (let i = 1; i <= 9; i++) {
             let celula = document.getElementById("celula1." + i);
