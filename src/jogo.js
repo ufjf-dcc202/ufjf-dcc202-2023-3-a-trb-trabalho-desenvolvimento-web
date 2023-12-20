@@ -10,6 +10,7 @@ let i = 1;
 let j = 4;
 let k = 7;
 let cont = 1;
+
 let numAleatorio=[];
 
 //sorteia e joga o num sorteado na tela
@@ -64,9 +65,9 @@ function jogadaoponente (){
 
 btnReinicia.addEventListener('click', reiniciarJogo);
     function reiniciarJogo() {
-        // Limpar conteúdo das células
+    // Limpar conteúdo das células
         let celula = document.getElementById ('Jog1');
-        celula.innerHTML = '&nbsp';
+        celula.innerHTML = '&nbsp'; //'&nbsp' é um espaço vazio
 
         for (let i = 1; i <= 9; i++) {
           let celula = document.getElementById("celula" + i);
@@ -80,6 +81,17 @@ btnReinicia.addEventListener('click', reiniciarJogo);
         i = 1;
         j = 4;
         k = 7;
-        cont = 0;
+        cont = 1;
 }
 
+
+/* function verificaCol1 (){
+    for (let i = 1; i<=3; i++){
+        let cel = document.getElementById("celula"+ 1);
+        let cel_opn = document.getElementById("celula1."+ i);
+        if (cel.innerHTML === cel_opn.innerHTML){
+            cel_opn.innerHTML = '&nbsp';
+        }
+    }
+}
+*/
