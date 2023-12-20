@@ -188,17 +188,6 @@ li {
     right: 30%;
     color: white;
 }
-.texto3 {
-    font-family: 'VT';
-    font-size: 130px;
-    text-decoration: none;
-    text-shadow: 2px 2px 0 black;
-    position: absolute;
-    top: 24.5%;
-    left: 48%;
-    color: white;
-}
-  
 /*personagens*/
 .imagem1 {
     position: absolute;
@@ -226,4 +215,32 @@ li {
     width: 90px;
     height: 90px;
     text-align: center;
+}
+
+#soma1{
+    font-family: 'VT';
+    font-size: 35px;
+    color: white;
+    align-items: center;
+    position: absolute;
+    left: 44%;
+    top: 38%;
+}
+#soma2{
+    font-family: 'VT';
+    font-size: 35px;
+    color: white;
+    align-items: center;
+    position: absolute;
+    left: 49%;
+    top: 38%;
+}
+#soma3{
+    font-family: 'VT';
+    font-size: 35px;
+    color: white;
+    align-items: center;
+    position: absolute;
+    left: 54%;
+    top: 38%;
 }
